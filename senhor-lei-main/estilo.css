@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body,html{
+    height: 100%;
+}
+.imagem-capa{
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+.topo{
+    font-weight: bold;
+    margin-left: 300px;
+    padding: 15px;
+}
+.div-3{
+    margin-left: 800px;
+    padding: 30px;
+}
+h1{
+    font-size: 22px;
+    margin-left: 50px;
+}
+.div-3 h2{
+    font-size: 18px;
+}
+.div-4{
+    width: 900px;
+    margin: 0 auto;
+}
+.div-4 h2{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+.div-4-1p{
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.div-4-img{
+    width: 295px;
+}
+.div-4-2p{
+    border-left: 2px solid;
+    margin: 8px 0 50px;
+    padding-left: 5px;
+}
+.imagem-fundo{
+    background-image: url(img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+.largura-limite{
+    width: 900px;
+    margin: 0 auto;
+    padding: 42px 0;
+}
+.imagem-fundo h3{
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+    font-size: 32px;
+    background-color: white;
+    color: 
+}
+.largura-limite h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.largura-limite p{
+    padding: 12px;
+    font-size: 18px;
+}
+li{
+    line-height: 32px;
+    font-size: 18px;
+}
+

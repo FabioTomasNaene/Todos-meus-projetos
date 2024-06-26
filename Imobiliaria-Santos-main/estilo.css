@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+}
+.secao-top{
+    background: skyblue;
+}
+.secao-top p{
+    padding: 38px;
+}
+.secao-top a{
+    margin: 10px;
+    font-size: 19px;
+    color: green;
+}
+.anuncio-casa{
+    margin-top: 26px;
+    width: 80%;
+}
+h1{
+    font-size: 32px;
+    margin-top: 60px;
+}
+h2{
+    font-size: 28px;
+    color: deepskyblue;
+    padding: 15px;
+}
+.img-assinatura{
+    width: 50%;
+}

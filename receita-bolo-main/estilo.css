@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    font-size: 26px;
+    color: brown;
+    text-align: center;
+    padding: 18px;
+}
+img{
+    margin-left: 10px;
+}
+h3{
+    text-decoration: underline;
+    font-size: 22px;
+    color: brown;
+    margin: 19px;
+}
+p{
+    font-size: 20px;
+    line-height: 36px;
+    width: 1500px;
+    margin-left: 10px;
+}

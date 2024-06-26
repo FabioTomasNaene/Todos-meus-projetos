@@ -1,0 +1,20 @@
+.banner-quartos{
+    height: 40vh;
+}
+.box2{
+    border-style: none;
+}
+.h3-small{
+    font-size: 19px;
+}
+.container-lista{
+    width: 1024px;
+    margin: 0 auto;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.lista{
+    font-size: 18px;
+    line-height: 30px;
+}

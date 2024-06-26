@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pappins', sans-serif;
+}
+.container-topo{
+    background-color: #2f86d6;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container-logo{
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-links{
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container-links a{
+    font-weight: 600px;
+    text-decoration: none;
+    color: white;
+}
+.container-logo-img{
+    width: 80px;
+    height: 80px;
+}
+.container-logo-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-logo p{
+    font-size: 15px;
+    font-weight: 600px;
+    color: white;
+}
+.largura-limite{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.secao-precos{
+    background-color: #fff;
+}
+.table{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.thead th{
+    padding: 25px;
+    background-color:  #f1f3f7;
+}
+.table p{
+    font-size: 14px;
+    color:  #a8a4a4;
+    padding: 5px;
+}
+.th h2{
+    font-size: 36px;
+    color: #000000;
+}
+.celula-hidden{
+    visibility: hidden;
+}
+.body-1-celula{
+    text-align: left;
+    background-color: #f1f3f7;
+}
+  table tbody td{
+    border-bottom: 1px solid #f1f3f7;
+    border-left: 1px solid #f1f3f7;
+    
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.ponto-azul {
+    width: 15px;
+    height: 15px;
+    margin:auto;
+    border-radius: 10px;
+    background-color: #2f86d6;
+}
+.rodape{
+     background-color: #2f86d6;
+}
+.rodape-largura img{
+    width: 80px;
+   margin-left: 120px;
+}
+.rodape-largura{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+}
+.position{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.position h1{
+    font-size: 32px;
+    color:#000000;
+}
+.rodape-largura p{
+    font-size: 16px;
+    color: #fff;
+}
+.rodape2{
+    background-color: #fff;
+}
+.rodape2 p{
+    padding: 20px 0;
+    text-align: center;
+}
+span{
+    color: #2f86d6;
+}
