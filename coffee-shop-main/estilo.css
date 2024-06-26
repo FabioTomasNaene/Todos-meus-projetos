@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo{
+    width: 100%;
+    background-color: #604829;
+    position: fixed;
+}
+.logotipo{
+    width: 100px;
+    margin-left: 15%;
+}
+.paragrafo-topo{
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.link-topo{
+    font-size: 18px;
+    font-family: oswald;
+    text-decoration: none;
+    color: #c4a47c;
+    top: 35%;
+    right: 15%;
+    letter-spacing: 2px;
+    text-shadow: 3px 5px 2px #000000;
+}
+.banner-parallax1{
+    background-image: url('assets/parallax-imagem1.png');
+    height: 100vh;
+}
+.banner-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.titulo-principal{
+    font-size: 100px;
+    font-weight: 400px;
+    text-align: center;
+    color:  #fff;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+}
+.container-informacoes1,
+.container-informacoes2,
+.container-informacoes3{
+    background-color: #fff;
+    padding: 80px;
+    
+}
+.subtitulo1,
+.subtitulo3,
+.subtitulo5{
+    font-size: 18px;
+    font-family: oswald;
+    color: #c4a47c;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: auto;
+}
+.paragrafo2,
+.paragrafo3,
+.paragrafo4{
+    max-width: 1024px;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    line-height: 34px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.container-parallax2{
+    background-image: url('assets/parallax-imagem2.jpg');
+    height: 70vh;
+}
+.subtitulo2,
+.subtitulo4{
+    width: 500px;
+    font-size: 24px;
+    color: #c4a47c;
+    font-weight: 400px;
+    font-style: italic;
+    background-color: #604829;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    position: relative;
+    right: 0;
+    left: 0;
+}
+.subtitulo2{
+    font-size: fraunces;
+    top: 45%;
+}
+.container-parallax3{
+    background-image: url('assets/parallax-imagem3.jpg');
+    height: 70vh;
+}
+.subtitulo4{
+    font-family: oswald;
+    top: 40%;
+}
+.subtitulo6{
+    width: 500px;
+    font-size: 24px;
+    font-family: oswald;
+    background-color: #604829;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 8%;
+    right: 0;
+    left: 35%;
+}
+.container-parallax4{
+    background-image: url('assets/parallax-imagem4.png');
+    height: 100vh;
+}
+.google-map{
+    width: 1024px;
+    height: 400px;
+    border: 0;
+    position: relative;
+    top: 17%;
+    left: 20%;
+}
+.paragrafo5{
+    width: 500px;
+    font-size: 16px;
+    font-family: oswald;
+    background-color: #604829;
+    color: #fff;
+    padding: 10px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    right: 0;
+    left: 35%;
+}
+.container-parallax5{
+    background-image: url('assets/cafeteria-parallax5.jpg');
+    height: 100vh;
+    padding: 100px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-parallax5 h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.lista-horario{
+    width: 100%;
+    max-width: 768px;
+}
+.lista-horario li{
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.lista-horario li h3{
+    flex: 0 1 100px;
+}
+.lista-horario li span, p{
+    flex: 0 1 100px;
+    text-align: right;
+}
+.lista-horario li div{
+    height: 1px;
+    background-color: gray;
+    flex: 1 1 auto;
+}
+.lista-horario li span{
+    color: #604829;
+}
+.seta{
+    position: relative;
+}
+.link-seta{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+}
+.rodape{
+    background-color: #000000;
+}
+.rodape p{
+    font-size: 16px;
+    font-family: lato;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.rodape span{
+  color: #c4a47c;
+}
